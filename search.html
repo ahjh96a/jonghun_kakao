@@ -4,84 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/080dd9cbdf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>친구찾기 | 카카오 클론 연습</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>검색 | 카카오 클론 도즈어어언</title>
 </head>
 <body>
-    <div class="topbar">
-        <div class="topbar_left">
-            <span class="topbar_left_time">
-                13:54
-            </span>
+    <div class="status-bar">
+        <div class="status-bar__row">
+            <span class="staus-bar__time">12:09</span>
         </div>
-        <div class="topbar_right">
-            <span class="topbar_right">
-                <i class="fas fa-clock"></i>
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-volume-mute"></i>
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-wifi"></i>
-            </span>
-            <span class="topbar_right">
-                50%
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-battery-three-quarters"></i>
-            </span>
+        <div class="status-bar__row">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-per">99%</span>
+            <i class="fas fa-battery-full"></i>
         </div>
     </div>
-    <header class="chating_header">
-        <div class="header_title">
-            <span class="header_title_title">
-                <h2>친구찾기</h2>
-            </span>
+    <header class="header">
+        <div class="header__header-row_content">
+            <h1>검색</h1>
         </div>
-        <div class="header_img">
-            <span class="header_img_Icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header_img_Icon">
-                <i class="fas fa-comment-medical"></i>
-            </span>
-            <span class="header_img_Icon">
-                <i class="fas fa-cog"></i>
-            </span>
+        <div class="header__header-row_content">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-cog"></i>
         </div>
     </header>
-    <main class="content">
-        <div class="content_container_small">
-            <div class="content_list_img">
-                <img src="img/avatar.png">
+    <!-- size2=width:60px, height:60px -->
+    <main class="search-list">
+        <div class="search-list__menu">
+            <span class="search-list__menu-content">
+                <div class="menu-content__icon">
+                    <i class="fas fa-qrcode fa-2x"></i>
+                </div>
+                <div class="menu-content__title">
+                    QR Code
+                </div>
+            </span>
+
+            <span class="search-list__menu-content">
+                <div class="menu-content__icon">
+                    <i class="fas fa-user-plus fa-2x"></i>
+                </div>
+                <div class="menu-content__title">
+                    연락처로 추가하기
+                </div>
+            </span>
+
+            <span class="search-list__menu-content">
+                <div class="menu-content__icon">
+                    <i class="fas fa-passport fa-2x"></i>
+                </div>
+                <div class="menu-content__title">
+                    ID로 추가하기
+                </div>
+            </span>
+
+            <span class="search-list__menu-content">
+                <div class="menu-content__icon">
+                    <i class="far fa-envelope fa-2x"></i>
+                </div>
+                <div class="menu-content__title">
+                    친구 초대
+                </div>
+            </span>
+        </div>
+    </main>
+    <hr>
+    <main class="recommended-content">
+        <!-- size_1 = width:70px, height:70px -->
+        <div class="recommended-content__list size_3">
+            <div class="3_img"><img src="" alt=""></div>
+            <div class="recommended-content__title size_3">
+                <h3>홍종훈</h3>
             </div>
-            <div class="content_list_text">
-                <div class="content_list_text_header">
-                    <span>
-                        홍종훈
-                    </span>
-                </div>
-                <div class="content_list_text_staters">
-                    <span>
-                        <i class="fas fa-user-plus"></i>
-                    </span>
-                </div>
+            <div class="recommended-content__plus size_3">
+                <i class="fas fa-user-plus"></i>
             </div>
         </div>
     </main>
-    <nav class="navBarMenu">
-        <ul class="navList">
-            <li class="navIconBtn">
-                <i class="far fa-user"></i>
+    <nav class="nav">
+        <ul class="nav-item">
+            <li class="nav-item__icons">
+                <a href="friends.html" class="nav-item__link">
+                    <i class="far fa-user"></i>
+                </a>
             </li>
-            <li class="navIconBtn">
-                <i class="far fa-comment"></i>
+            <li class="nav-item__icons">
+                <a href="index.html" class="nav-item__link">
+                    <i class="far fa-comment"></i>
+                </a>
             </li>
-            <li class="navIconBtn">
-                <i class="fas fa-search"></i>
+            <li class="nav-item__icons">
+                <a href="search.html">
+                    <i class="fas fa-search"></i>
+                </a>
             </li>
-            <li class="navIconBtn">
-                <i class="fas fa-compress-arrows-alt"></i>
+            <li class="nav-item__icons">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
             </li>
         </ul>
     </nav>

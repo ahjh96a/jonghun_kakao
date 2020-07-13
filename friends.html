@@ -4,194 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/080dd9cbdf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>친구목록 | 카카오 클론 연습</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>친구목록 | 카카오 클론 도오오전</title>
 </head>
 <body>
-
-    <div class="topbar">
-        <div class="topbar_left">
-            <span class="topbar_left_time">
-                13:54
-            </span>
+    <div class="status-bar">
+        <div class="status-bar__row">
+            <span class="staus-bar__time">12:09</span>
         </div>
-
-        <div class="topbar_right">
-            <span class="topbar_right">
-                <i class="fas fa-clock"></i>
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-volume-mute"></i>
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-wifi"></i>
-            </span>
-            <span class="topbar_right">
-                50%
-            </span>
-            <span class="topbar_right">
-                <i class="fas fa-battery-three-quarters"></i>
-            </span>
+        <div class="status-bar__row">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-per">99%</span>
+            <i class="fas fa-battery-full"></i>
         </div>
     </div>
-
-    <header class="chating_header">
-        <div class="header_title">
-            <span class="header_title_title">
-                <h2>내 친구</h2>
-            </span>
+    <header class="header">
+        <div class="header__header-row_content">
+            <h1>친구들</h1>
         </div>
-        <div class="header_img">
-            <span class="header_img_Icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header_img_Icon">
-                <i class="fas fa-cog"></i>
-            </span>
+        <div class="header__header-row_content">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-cog"></i>
         </div>
     </header>
-
-    <main class="content">
-
-        <div class="content_container_big">
-            <div class="content_list_img">
-                <img src="img/avatar.png">
+    <main class="friends-content size_1">
+        <!-- size_1 = width:70px, height:70px -->
+        <div class="friends-content__list size_1">
+            <div class="1_img"><img src="" alt=""></div>
+            <div class="friends-content__title size_1">
+                <h3>홍종훈</h3>
             </div>
-            <div class="content_list_text">
-                <div class="content_text_header">
-                    <span>
-                        홍종훈
-                    </span>
-                </div>
-                <div class="content_text_staters">
-                    <span>
-                        아니 이건 너무한거 아니냐고!
-                    </span>
-                </div>
+            <div class="friends-content__description size_1">
+                <h4>집에가즈아아아!!</h4>
             </div>
-        </div>
-     
-        <div class="liner">
-            -
-        </div>
-
-        <div class="content_container_small">
-
-            <div class="plusFriend_title">
-                <span class="plusFriend_title_txt">
-                    <h3>친구추가</h3>
-                </span>
-            </div>
-
-            <div class="content_plusBody">
-                <div class="content_plusFriend_img">
-                    <img src="img/avatar.png">
-                </div>
-                <div class="content_plusFriend_text">
-                    <div class="content_text_header">
-                        <span>
-                            친구추가
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-             
-        <div class="liner">
-            -
-        </div>
-
-        <div class="content_container_small">
-
-            <div class="plusFriend_title">
-                <span class="plusFriend_title_txt">
-                    <h3>친구목록</h3>
-                </span>
-            </div>
-            
-            <div class="content_plusBody">
-                <div class="content_plusFriend_img">
-                <img src="img/avatar.png">
-                </div>
-
-                <div class="content_plusFriend_text">
-
-                    <div class="content_text_header">
-                    <span>
-                        김낙지
-                    </span>
-                    </div>
-
-                    <div class="content_text_staters">
-                        <span>
-                            낙지에게도 순정이 있다.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content_plusBody">
-                <div class="content_plusFriend_img">
-                <img src="img/avatar.png">
-                </div>
-
-                <div class="content_plusFriend_text">
-
-                    <div class="content_text_header">
-                    <span>
-                        김가루
-                    </span>
-                    </div>
-
-                    <div class="content_text_staters">
-                        <span>
-                            김에게도 순정이 있다.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="content_plusBody">
-                <div class="content_plusFriend_img">
-                <img src="img/avatar.png">
-                </div>
-
-                <div class="content_plusFriend_text">
-
-                    <div class="content_text_header">
-                    <span>
-                        김낙석
-                    </span>
-                    </div>
-
-                    <div class="content_text_staters">
-                        <span>
-                            바위에게도 순정이 있다.
-                        </span>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </main>
-
-        <nav class="navBarMenu">
-            <ul class="navList">
-                <li class="navIconBtn">
+    <main class="plus_friend size_3">
+        <div class="plus-title size_3">
+            친구를 추가하세요!
+        </div>
+        <!-- size_3 = width:50px, height:50px -->
+        <div class="plus-img size_3">
+            <div class="3_img"><img src="" alt=""></div>
+            <div class="plus_title size_3">
+                <h3>친구 추가하기</h3>
+            </div>
+        </div>
+    </main>
+    <main class="friend-inpo size_3">
+        <!-- size_3 = width:50px, height:50px -->
+        <div class="friend-inpo__list size_3">
+            <div class="3_img"><img src="" alt=""></div>
+            <div class="friend-inpo__title size_3">
+                <h3>홍종훈</h3>
+            </div>
+            <div class="friend-inpo__description size_3">
+                <h4>집에가즈아아아!!</h4>
+            </div>
+            <div class="music-status">
+                <span>깡 - Bee (FT-jonghun)</span>
+                <i class="fas fa-play"></i>
+            </div>
+        </div>
+    </main>
+    <nav class="nav">
+        <ul class="nav-item">
+            <li class="nav-item__icons">
+                <a href="friends.html" class="nav-item__link">
                     <i class="fas fa-user"></i>
-                </li>
-                <li class="navIconBtn">
+                </a>
+            </li>
+            <li class="nav-item__icons">
+                <a href="index.html" class="nav-item__link">
                     <i class="far fa-comment"></i>
-                </li>
-                <li class="navIconBtn">
+                </a>
+            </li>
+            <li class="nav-item__icons">
+                <a href="search.html">
                     <i class="fas fa-search"></i>
-                </li>
-                <li class="navIconBtn">
-                    <i class="fas fa-compress-arrows-alt"></i>
-                </li>
-            </ul>
-        </nav>
-
+                </a>
+            </li>
+            <li class="nav-item__icons">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
