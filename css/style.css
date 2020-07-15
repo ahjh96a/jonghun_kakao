@@ -1,1 +1,23 @@
-@import "reset.css"
+@import "reset.css";
+@import "chat.css";
+@import "header.css";
+@import "status-bar.css";
+@import "nav.css";
+@import "list_size.css";
+@import "search.css";
+@import "more.css";
+@import "friends.css";
+@import "opstion.css";
+@import "chatRoom.css";
+
+body{
+    width:100%;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:#000000
+}

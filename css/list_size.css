@@ -1,0 +1,53 @@
+/* size_1 */
+.size_1{
+    width:100%;
+    display:flex;
+}
+.img_01 > img{
+    width:70px;
+    height:70px;
+    border-radius: 20px;
+    margin-right:10px;
+}
+.size_1 > h4{
+    margin-top: 5px;
+}
+/* size_02 */
+.size_2{
+    width:100%;
+    display:flex;
+}
+.img_02 > img{
+    width:60px;
+    height:60px;
+    border-radius: 20px;
+}
+.size_2-txt{
+    margin-left: 15px;
+}
+.size_2-txt > span{
+    height:100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.size_2-txt span > h4{
+    margin-top:5px;
+}
+/* size_3 */
+.size_3{
+    width:100%;
+    display:flex;
+}
+.img_03 > img{
+    width: 50px;
+    height:50px;
+    border-radius: 10px;
+}
+.size_3 > h3{
+    margin-left:10px;
+}
+.size_3 > h4{
+    margin-left:10px;
+    margin-top:10px;
+}

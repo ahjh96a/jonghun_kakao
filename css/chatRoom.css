@@ -1,0 +1,64 @@
+.fixed-main{
+    width:100%;
+    display:flex;
+    flex-flow: column;
+    background-color: tomato;
+    padding-bottom: 15px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+/* fiexd-status */
+.status-fixed{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.status-bar{
+    display:flex;
+    justify-content: space-between;
+}
+/* fixed-header */
+.header__fixed{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.header-chatRoom{
+    display:flex;
+    justify-content: space-between;
+}
+/* main_content */
+.chatting{
+    width:90%;
+    margin-top:130px;
+    display:flex;
+    justify-content: center;
+}
+.chatting-body{
+    width:100%;
+    display:flex;
+}
+.time_stemp{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.text_bubble{
+    width:100%;
+    display: flex;
+}
+.bubble-left > img{
+    width:25px;
+    height:25px;
+    border-radius: 50px;
+}
+.bubble-left{
+    width:100%;
+    display: flex;
+}
+.bubble-left__txt{
+    width:100%;
+    display:flex;
+    flex-flow: column;
+}
