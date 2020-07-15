@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import "reset.css";
 @import "chat.css";
 @import "header.css";
@@ -10,7 +9,6 @@
 @import "friends.css";
 @import "opstion.css";
 @import "chatRoom.css";
-@import "midea.css";
 
 body{
     width:100%;
@@ -22,31 +20,4 @@ body{
 a{
     text-decoration: none;
     color:#000000
-}
-*{
-    box-sizing: border-box;
-    font-family: 'Do Hyeon', sans-serif;
-}
-span{
-    font-family: 'Do Hyeon', sans-serif;
-}
-h1{
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: bold;
-    font-size:26px;
-}
-h2{
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: bold;
-    font-size:20px;
-}
-h3{
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: bold;
-    font-size:18px;
-}
-h4{
-    font-family: 'Do Hyeon', sans-serif;
-    font-weight: bold;
-    font-size:16px;
 }
