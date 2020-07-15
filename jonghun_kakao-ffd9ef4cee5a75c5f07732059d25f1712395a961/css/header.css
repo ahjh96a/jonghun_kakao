@@ -1,0 +1,28 @@
+header{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+}
+.header__header-row_content{
+    width:20%;
+    display:flex;
+    justify-content: center;
+}
+.header__header-row_content:nth-child(1){
+    display:flex;
+    justify-content: flex-start;
+}
+.header__header-row_content > i:nth-child(1n+1){
+    margin-left:10px;
+}
+.header__header-row_content > a:nth-child(1n+1){
+    margin-left:10px;
+}
+.two-header{
+    width:10%;
+}
+.setting-header{
+    margin-right: 10px;
+    width:0%;
+}
