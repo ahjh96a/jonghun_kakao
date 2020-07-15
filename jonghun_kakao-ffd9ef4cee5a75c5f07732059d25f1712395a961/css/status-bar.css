@@ -1,0 +1,6 @@
+.status-bar{
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+}
